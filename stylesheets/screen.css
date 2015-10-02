@@ -67,6 +67,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 2, ../sass/partials/_main.scss */
+body {
+  background: #fff;
+}
+
+/* line 5, ../sass/partials/_main.scss */
+.container {
+  background: #ddd;
+}
+
 /* line 3, ../sass/partials/_home-page.scss */
 body {
   background-color: #000;
