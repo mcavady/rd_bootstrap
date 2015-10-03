@@ -16,6 +16,8 @@
     <!--[if IE]>
       <link href="../rd_bootstrap/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
+    <link rel="stylesheet" href="../rd_bootstrap/font-awesome-4.4.0/css/font-awesome.min.css">
+
   </head>
     <body>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -88,9 +90,13 @@
 
 
          </header>
+
+<!-- placed here for a reason, not semantic -->
          <aside class="pull-right col-lg-4 col-md-4 col-sm-4 hidden-xs">
     		sidebar
          </aside>
+
+<!-- main content og the page -->
          <main class="pull-left col-lg-8 col-md-8 col-sm-8 col-xs-12">
 
 	    <article id="home">
@@ -110,10 +116,22 @@
 
          </main>
 
+<!-- full page width footer -->
          <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              	footer
+              	<div class="footer-col col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<i class="fa fa-car fa-5x"></i>
+		</div>
+              	<div class="footer-col col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<i class="fa fa-car fa-5x"></i>
+		</div>
+              	<div class="footer-col col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<i class="fa fa-car fa-5x"></i>
+		</div>
+              	<div class="footer-col col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<i class="fa fa-car fa-5x"></i>
+		</div>
          </footer>
-
 	</div>
+
     </body>
 </html>

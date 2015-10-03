@@ -67,6 +67,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 3, ../sass/partials/_header.scss */
+header {
+  margin-top: 60px;
+  background: #000;
+  margin-bottom: 20px;
+}
+
 /* line 2, ../sass/partials/_main.scss */
 body {
   background: #fff;
@@ -77,11 +84,26 @@ body {
   background: #ddd;
 }
 
-/* line 3, ../sass/partials/_header.scss */
-header {
-  margin-top: 60px;
-  background: #000;
+/* line 9, ../sass/partials/_main.scss */
+article {
+  background: #fff;
   margin-bottom: 20px;
+}
+
+/* line 3, ../sass/partials/_footer.scss */
+footer {
+  padding-top: 20px;
+  background: #000;
+}
+
+/* line 8, ../sass/partials/_footer.scss */
+.footer-col {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* line 12, ../sass/partials/_footer.scss */
+.footer-col i {
+  color: #fff;
 }
 
 /* line 3, ../sass/partials/_home-page.scss */
