@@ -75,16 +75,6 @@ header {
 }
 
 /* line 2, ../sass/partials/_main.scss */
-body {
-  background: #fff;
-}
-
-/* line 5, ../sass/partials/_main.scss */
-.container {
-  background: #ddd;
-}
-
-/* line 9, ../sass/partials/_main.scss */
 article {
   background: #fff;
   margin-bottom: 20px;
@@ -107,11 +97,6 @@ footer {
 }
 
 /* line 3, ../sass/partials/_home-page.scss */
-body {
-  background-color: #000;
-}
-
-/* line 7, ../sass/partials/_home-page.scss */
 article {
   min-height: 320px;
 }

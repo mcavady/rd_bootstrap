@@ -115,7 +115,7 @@
   	    </article>
 
          </main>
-
+	</div>
 <!-- full page width footer -->
          <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               	<div class="footer-col col-lg-3 col-md-3 col-sm-6 col-xs-6">
@@ -131,7 +131,6 @@
 			<i class="fa fa-car fa-5x"></i>
 		</div>
          </footer>
-	</div>
 
     </body>
 </html>
