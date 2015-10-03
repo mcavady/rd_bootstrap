@@ -77,7 +77,19 @@ body {
   background: #ddd;
 }
 
+/* line 3, ../sass/partials/_header.scss */
+header {
+  margin-top: 60px;
+  background: #000;
+  margin-bottom: 20px;
+}
+
 /* line 3, ../sass/partials/_home-page.scss */
 body {
   background-color: #000;
+}
+
+/* line 7, ../sass/partials/_home-page.scss */
+article {
+  min-height: 320px;
 }

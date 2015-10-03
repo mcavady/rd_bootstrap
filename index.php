@@ -39,25 +39,81 @@
         </div>
        </nav>
        <div class="container">
-       <header>
-         <div id="header">
-           header
-         </div><!-- end the header -->
-       </header>
-       <div id="content-wrapper">
-       <aside>
-        <div id="sidebar">
+         <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="../rd_bootstrap/images/gallery-image-1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="../rd_bootstrap/images/gallery-image-1.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="../rd_bootstrap/images/gallery-image-1.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+         </header>
+         <aside class="pull-right col-lg-4 col-md-4 col-sm-4 hidden-xs">
     		sidebar
-    	</div><!-- end the side bar -->
-       </aside>
-       <div id="main-content">
-       	main content
-       </div>
-       <footer>
-         <div id="footer">
+         </aside>
+         <main class="pull-left col-lg-8 col-md-8 col-sm-8 col-xs-12">
+
+	    <article id="home">
+    		<h1>Google Chrome</h1>
+    		<p>Google Chrome is a free, open-source web browser developed by Google,released in 2008.</p>
+  	    </article>
+
+	    <article id="about">
+    		<h1>Google Chrome</h1>
+    		<p>Google Chrome is a free, open-source web browser developed by Google,released in 2008.</p>
+  	    </article>
+
+	    <article id="contact">
+    		<h1>Google Chrome</h1>
+    		<p>Google Chrome is a free, open-source web browser developed by Google,released in 2008.</p>
+  	    </article>
+
+         </main>
+
+         <footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               	footer
-         </div>
-       </footer>
-        </div><!--end the container -->
+         </footer>
+
+	</div>
     </body>
 </html>
