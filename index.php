@@ -12,12 +12,11 @@
     <script src="../rd_bootstrap/js/jquery-1.11.3.min.js"></script>
     <script src="../rd_bootstrap/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
     <link href="../rd_bootstrap/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="../rd_bootstrap/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+<!--    <link href="../rd_bootstrap/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />-->
     <!--[if IE]>
       <link href="../rd_bootstrap/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <![endif]-->
     <link rel="stylesheet" href="../rd_bootstrap/font-awesome-4.4.0/css/font-awesome.min.css">
-
   </head>
     <body>
       <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -107,7 +106,7 @@
 	    <article id="about">
     		<h1>Google Chrome</h1>
     		<p>Google Chrome is a free, open-source web browser developed by Google,released in 2008.</p>
-  	    </article>
+	    </article>
 
 	    <article id="contact">
     		<h1>Google Chrome</h1>

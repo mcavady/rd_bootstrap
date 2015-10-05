@@ -100,3 +100,50 @@ footer {
 article {
   min-height: 320px;
 }
+
+/* line 1, ../sass/partials/_flipper.scss */
+.prodcut {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  float: left;
+}
+
+/* line 8, ../sass/partials/_flipper.scss */
+.flip-container:active .flipper, .flip-container.active .flipper, .flip-container.flip .flipper {
+  transform: rotateY(180deg);
+}
+
+/* line 13, ../sass/partials/_flipper.scss */
+.flip-container {
+  perspective: 1000;
+}
+
+/* line 17, ../sass/partials/_flipper.scss */
+.flip-container, .front, .back {
+  width: 320px;
+  height: 320px;
+}
+
+/* flip speed goes here */
+/* line 23, ../sass/partials/_flipper.scss */
+.flipper {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* line 31, ../sass/partials/_flipper.scss */
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+  background: #ddd;
+}
+
+/* back, initially hidden pane */
+/* line 39, ../sass/partials/_flipper.scss */
+.back {
+  transform: rotateY(180deg);
+  background: #ccc;
+}

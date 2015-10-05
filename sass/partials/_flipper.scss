@@ -1,0 +1,43 @@
+.prodcut{
+        margin-top:20px;
+        margin-bottom:20px;
+        margin-left:20px;
+        float:left;
+}
+
+.flip-container:active .flipper, .flip-container.active .flipper, .flip-container.flip .flipper {
+        transform: rotateY(180deg);
+}
+
+//* entire container, keeps perspective */
+.flip-container {
+        perspective: 1000;
+}
+
+.flip-container, .front, .back {
+        width: 320px;
+        height: 320px;
+}
+
+/* flip speed goes here */
+.flipper {
+        transition: 0.5s;
+        transform-style: preserve-3d;
+
+        position: relative;
+}
+
+//* front pane, placed above back */
+.front {
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
+        background:#ddd;
+}
+
+/* back, initially hidden pane */
+.back {
+        transform: rotateY(180deg);
+        background:#ccc;
+}
+
