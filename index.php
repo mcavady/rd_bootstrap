@@ -98,7 +98,94 @@
 <!-- main content og the page -->
          <main class="pull-left col-lg-8 col-md-8 col-sm-8 col-xs-12">
 
-	    <article id="home">
+           <div class="container">
+             <div class="row">
+               <div class="col-sm-3">
+                 <div class="flip">
+                   <div class="card">
+                     <div class="face front">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-right"></i></a></div>
+                         <div class="packageStock">00/00</div>
+                         <div class="packageFamily text-right">
+                           Family <br><strong>1</strong>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="face back">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-left"></i></a></div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="flip">
+                   <div class="card">
+                     <div class="face front">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-right"></i></a></div>
+                         <div class="packageStock">00/01</div>
+                         <div class="packageFamily text-right">
+                           Family <br><strong>1</strong>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="face back">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-left"></i></a></div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="flip">
+                   <div class="card">
+                     <div class="face front">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-right"></i></a></div>
+                         <div class="packageStock">00/02</div>
+                         <div class="packageFamily text-right">
+                           Family <br><strong>1</strong>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="face back">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-left"></i></a></div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="col-sm-3">
+                 <div class="flip">
+                   <div class="card">
+                     <div class="face front">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-right"></i></a></div>
+                         <div class="packageStock">00/03</div>
+                         <div class="packageFamily text-right">
+                           Family <br><strong>1</strong>
+                         </div>
+                       </div>
+                     </div>
+                     <div class="face back">
+                       <div class="well well-sm inner">
+                         <div class="flipControl"><a class="flipLink"><i class="fa fa-chevron-circle-left"></i></a></div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+
+
+
+           <article id="home">
     		<h1>Google Chrome</h1>
     		<p>Google Chrome is a free, open-source web browser developed by Google,released in 2008.</p>
   	    </article>
