@@ -39,7 +39,7 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="container">
+
     <header class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
         <!-- Carousel
@@ -89,7 +89,7 @@
 
 
     </header>
-
+<div class="container">
     <!-- placed here for a reason, not semantic -->
     <aside class="pull-right col-lg-4 col-md-4 col-sm-4 hidden-xs">
         sidebar
