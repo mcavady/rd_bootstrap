@@ -102,48 +102,79 @@ article {
 }
 
 /* line 1, ../sass/partials/_flipper.scss */
-.prodcut {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  float: left;
+body {
+  padding-top: 50px;
+  background: #555;
 }
 
-/* line 8, ../sass/partials/_flipper.scss */
-.flip-container:active .flipper, .flip-container.active .flipper, .flip-container.flip .flipper {
-  transform: rotateY(180deg);
+/* line 5, ../sass/partials/_flipper.scss */
+.flip {
+  -webkit-perspective: 800;
+  perspective: 800;
+  position: relative;
+  text-align: center;
 }
 
-/* line 13, ../sass/partials/_flipper.scss */
-.flip-container {
-  perspective: 1000;
+/* line 12, ../sass/partials/_flipper.scss */
+.flip .card.flipped {
+  -webkit-transform: rotatey(-180deg);
+  transform: rotatey(-180deg);
 }
 
 /* line 17, ../sass/partials/_flipper.scss */
-.flip-container, .front, .back {
-  width: 320px;
-  height: 320px;
+.flip .card {
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  transform-style: preserve-3d;
+  transition: 0.5s;
 }
 
-/* flip speed goes here */
-/* line 23, ../sass/partials/_flipper.scss */
-.flipper {
-  transition: 0.5s;
-  transform-style: preserve-3d;
-  position: relative;
+/* line 25, ../sass/partials/_flipper.scss */
+.flip .card .face {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  z-index: 2;
 }
 
 /* line 31, ../sass/partials/_flipper.scss */
-.front {
-  z-index: 2;
-  /* for firefox 31 */
-  transform: rotateY(0deg);
-  background: #ddd;
+.flip .card .front {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
 }
 
-/* back, initially hidden pane */
-/* line 39, ../sass/partials/_flipper.scss */
-.back {
-  transform: rotateY(180deg);
-  background: #ccc;
+/* line 37, ../sass/partials/_flipper.scss */
+.flip .card .back {
+  -webkit-transform: rotatey(-180deg);
+  transform: rotatey(-180deg);
+}
+
+/* line 42, ../sass/partials/_flipper.scss */
+.inner {
+  height: 100px !important;
+  margin: 0px !important;
+}
+
+/* line 46, ../sass/partials/_flipper.scss */
+.packageStock {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-size: 2.2em;
+}
+
+/* line 52, ../sass/partials/_flipper.scss */
+.packageFamily {
+  position: absolute;
+  bottom: 4px;
+  right: 8px;
+}
+
+/* line 57, ../sass/partials/_flipper.scss */
+.flipControl {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-size: 1.2em;
 }
