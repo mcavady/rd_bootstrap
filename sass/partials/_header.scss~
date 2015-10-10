@@ -1,6 +1,7 @@
 //header styles
 
 header {
+	margin-top:60px;
 	background:#000;
 	margin-bottom:20px;
 }
